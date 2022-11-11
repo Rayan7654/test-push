@@ -1,6 +1,7 @@
 # test-push
 C++
-Simple project for finding solutions for second degree polynomials
+
+Simple project for finding solutions for second degree equations
 
 view line 22,23, and 24 :
 
