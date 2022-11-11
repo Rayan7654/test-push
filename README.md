@@ -12,3 +12,5 @@ view line 22,23, and 24 :
 
 24  solution2 = ((-1 * b) - sqrt(discriminant)) / (2 * a);
 
+
+Look out for comments in the code!
