@@ -1,8 +1,12 @@
+/*Simple Program for finding solutions for second degree equations*/
+/*Based on 10th standard*/
+
 #include <iostream>
 #include <cmath>
 
 using namespace std;
 
+void tryagain();
 int main()
 {
     system("clear"); // <--Here add system("cls") if in windows.
@@ -39,5 +43,27 @@ int main()
         cout << "   1." << solution1 << endl;
         cout << "   2." << solution2 << endl;
         cout << "x={" << solution1 << "," << solution2 << "}" << endl;
+    }
+    tryagain();
+}
+
+void tryagain()
+{
+    cout << endl;
+    char yesorno;
+    cout << "Do you want to try again [y/n] : " << endl;
+    cin >> yesorno;
+    if (yesorno == 'y')
+    {
+        main();
+    }
+    else if (yesorno == 'n')
+    {
+        cout << "Thank You" << endl;
+    }
+    else
+    {
+        cout << "Enter y for yes and n for no" << endl;
+        tryagain();
     }
 }
