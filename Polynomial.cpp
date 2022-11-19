@@ -10,7 +10,7 @@ void tryagain();
 int main()
 {
     system("title Polynomial Solver");
-    system("clear"); // <--Here add system("cls") if in windows.
+    system("clear"); // <--Here add 'system("cls")' if in windows.
     int a, b, c;
     cout << "Enter values for a , b , c in the format -> " << endl;
     cout << "  a*x^2 + b*x + c = 0 " << endl;
