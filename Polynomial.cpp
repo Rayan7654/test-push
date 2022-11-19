@@ -1,5 +1,5 @@
 /*Simple Program for finding solutions for second degree equations*/
-/*Based on 10th standard*/
+/*Based on 10th standard concepts*/
 
 #include <iostream>
 #include <cmath>
@@ -9,6 +9,7 @@ using namespace std;
 void tryagain();
 int main()
 {
+    system("title Polynomial Solver");
     system("clear"); // <--Here add system("cls") if in windows.
     int a, b, c;
     cout << "Enter values for a , b , c in the format -> " << endl;
